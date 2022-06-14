@@ -6,7 +6,7 @@ const Block = (props) => {
 
   return (
     <div className='block'>
-      <img src={image} />
+      <img src={image} alt = "" />
       <h2>{title}</h2>
       <p>{date}</p>
     </div>
