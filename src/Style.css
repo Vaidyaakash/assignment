@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    height: 600px;
+    width: 450px;
+}
+.block img{
+    width: 100%;
+}
+.main_block{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.form{
+    margin-top: 5rem;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+}
+.form input[type="submit"]{
+    margin-top: 2rem;
+    padding: 5px 15px;
+    font-size: 20px;
+}
